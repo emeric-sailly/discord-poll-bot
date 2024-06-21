@@ -9,6 +9,6 @@ if(args.includes("--presence")) {
     CreatePoll(process.env.CHANNEL_ID_3DVIA_BOARDGAME, BOARDGAME_POLL);
 } else if(args.includes("--webtalk")) {
     CreatePoll(process.env.CHANNEL_ID_3DVIA_HBM_DEV, WEBTALK_POLL);
-} else if(args.includes("--test")) {
+} else {
     CreatePoll(process.env.CHANNEL_ID_TEST, PRESENCE_POLL);
 }
